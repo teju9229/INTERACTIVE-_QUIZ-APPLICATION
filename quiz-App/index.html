@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Interactive Domain Quiz</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Register/Login Section -->
+  <div class="container" id="auth-container">
+    <h2 id="auth-title">Register</h2>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="handleAuth()">Register</button>
+    <p id="switch-auth">Already have an account? <a onclick="toggleAuth()">Login here</a></p>
+    <p id="auth-msg"></p>
+  </div>
+
+  <!-- Domain Selection -->
+  <div class="container hidden" id="domain-container">
+    <h2>Select Domain</h2>
+    <button onclick="selectDomain('HTML')">HTML</button>
+    <button onclick="selectDomain('CSS')">CSS</button>
+    <button onclick="selectDomain('JavaScript')">JavaScript</button>
+    <button onclick="selectDomain('AI')">AI</button>
+    <button onclick="selectDomain('ML')">ML</button>
+    <button onclick="selectDomain('General')">General</button>
+  </div>
+
+  <!-- Topic Selection -->
+  <div class="container hidden" id="topic-container">
+    <h2 id="topic-title">Select Quiz</h2>
+    <div id="topic-buttons"></div>
+  </div>
+
+  <!-- Quiz Section -->
+  <div class="container hidden" id="quiz-container">
+    <h2>Quiz</h2>
+    <div id="quiz-box">
+      <p id="question">Question text...</p>
+      <div id="options"></div>
+      <button id="next-btn">Next</button>
+      <p id="feedback"></p>
+    </div>
+    <div id="result-box" class="hidden">
+      <h3>Quiz Completed!</h3>
+      <p id="score"></p>
+      <button onclick="restartQuiz()">Restart Quiz</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
