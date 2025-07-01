@@ -25,6 +25,7 @@ This application is ideal for learning, assessment, or entertainment purposes. I
 ##OUTPUT
 
 ![Image](https://github.com/user-attachments/assets/29151202-8cf0-415a-aac3-b62508a61b44) 
+![Image](https://github.com/user-attachments/assets/0e61c275-75e1-4934-9cb3-7b06a9a6db5a)
 
 ![Image](https://github.com/user-attachments/assets/080d2396-9402-4b5e-bb90-1f35c9121dfa)
 
@@ -44,7 +45,7 @@ This application is ideal for learning, assessment, or entertainment purposes. I
 
 ![Image](https://github.com/user-attachments/assets/9321d629-d80e-4f6b-9cfa-71a36608d845)
 
-![Image](https://github.com/user-attachments/assets/0e61c275-75e1-4934-9cb3-7b06a9a6db5a)
+
 
 ![Image](https://github.com/user-attachments/assets/01a6eeb5-3446-476e-bd70-360a739bd3a4)
 
